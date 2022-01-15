@@ -1,0 +1,10 @@
+{
+    "presets": [
+        [
+            "@babel/preset-react", {
+                "pragma": "Mini.createElement", // default pragma is React.createElement
+                "pragmaFrag": "Mini.Fragment" // default is React.Fragment
+            }
+        ]
+    ]
+}
